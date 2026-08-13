@@ -1,0 +1,27 @@
+<svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Project Operations Dashboard featured project</title>
+  <desc id="desc">Internal project tracking platform replacing spreadsheet workflows with role-aware operations</desc>
+  <defs>
+    <linearGradient id="accent" x1="28" y1="0" x2="452" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9ece6a"/>
+      <stop offset="1" stop-color="#38bdae"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="479" height="219" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="24" y="22" width="432" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="24" y="53" fill="#f8fafc" font-family="Segoe UI, Ubuntu, sans-serif" font-size="21" font-weight="700">Project Operations Dashboard</text>
+  <text x="24" y="73" fill="#9ece6a" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="600">INTERNAL OPERATIONS PLATFORM</text>
+  <text x="24" y="102" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">Excel replacement with RBAC, project progress, blockers,</text>
+  <text x="24" y="121" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">imports, reports, activity history and operational workflows.</text>
+
+  <g font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c0caf5">
+    <rect x="24" y="143" width="55" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="36" y="159">React</text>
+    <rect x="87" y="143" width="86" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="99" y="159">TypeScript</text>
+    <rect x="181" y="143" width="86" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="193" y="159">PocketBase</text>
+    <rect x="275" y="143" width="64" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="287" y="159">Node.js</text>
+    <rect x="347" y="143" width="63" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="359" y="159">Docker</text>
+  </g>
+
+  <circle cx="29" cy="193" r="4" fill="#9ece6a"/>
+  <text x="41" y="198" fill="#787c99" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12">Private source · internal platform</text>
+</svg>

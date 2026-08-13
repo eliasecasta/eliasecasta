@@ -1,0 +1,62 @@
+<svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Elias — Full-Stack, Backend, DevOps and AI Systems</title>
+  <desc id="desc">Custom profile banner for Elias</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="960" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#151127"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="0" x2="830" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdae"/>
+      <stop offset="0.5" stop-color="#70a5fd"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(824 73) rotate(145) scale(360 210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7aa2f7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#7aa2f7" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="1" width="998" height="258" rx="18" fill="url(#glow)"/>
+
+  <g transform="translate(38 30)" filter="url(#shadow)">
+    <rect width="924" height="200" rx="14" fill="#0d1117" fill-opacity="0.72" stroke="#30363d"/>
+    <circle cx="22" cy="21" r="5" fill="#f7768e"/>
+    <circle cx="40" cy="21" r="5" fill="#e0af68"/>
+    <circle cx="58" cy="21" r="5" fill="#9ece6a"/>
+    <text x="82" y="26" fill="#787c99" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">~/profile</text>
+
+    <text x="30" y="65" fill="#38bdae" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">$ whoami</text>
+    <text x="30" y="111" fill="#f8fafc" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="38" letter-spacing="0.5">ELIAS</text>
+    <rect x="30" y="124" width="610" height="3" rx="1.5" fill="url(#accent)"/>
+    <text x="30" y="151" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18">Full-Stack · Backend · DevOps · AI Systems</text>
+    <text x="30" y="178" fill="#787c99" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">Building production software, reliable infrastructure, and agent-driven engineering workflows.</text>
+
+    <g transform="translate(662 59)">
+      <rect width="220" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <circle cx="17" cy="15" r="4" fill="#70a5fd"/>
+      <text x="30" y="20" fill="#c0caf5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12">Ruby on Rails · APIs</text>
+
+      <rect y="39" width="220" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <circle cx="17" cy="54" r="4" fill="#38bdae"/>
+      <text x="30" y="59" fill="#c0caf5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12">React · TypeScript</text>
+
+      <rect y="78" width="220" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <circle cx="17" cy="93" r="4" fill="#9ece6a"/>
+      <text x="30" y="98" fill="#c0caf5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12">Docker · CI/CD · Ops</text>
+
+      <rect y="117" width="220" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
+      <circle cx="17" cy="132" r="4" fill="#bb9af7"/>
+      <text x="30" y="137" fill="#c0caf5" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12">Agent Harnesses · Memory</text>
+    </g>
+  </g>
+</svg>

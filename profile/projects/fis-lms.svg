@@ -1,0 +1,27 @@
+<svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">FIS Certificaciones LMS featured project</title>
+  <desc id="desc">Code-owned learning management system with courses, quizzes, certificates, roles and analytics</desc>
+  <defs>
+    <linearGradient id="accent" x1="28" y1="0" x2="452" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#70a5fd"/>
+      <stop offset="1" stop-color="#bb9af7"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="479" height="219" rx="14" fill="#0d1117" stroke="#30363d"/>
+  <rect x="24" y="22" width="432" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="24" y="53" fill="#f8fafc" font-family="Segoe UI, Ubuntu, sans-serif" font-size="21" font-weight="700">FIS Certificaciones LMS</text>
+  <text x="24" y="73" fill="#bb9af7" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12" font-weight="600">CODE-OWNED LEARNING PLATFORM</text>
+  <text x="24" y="102" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">Courses, quizzes, certificates, RBAC, analytics, payments</text>
+  <text x="24" y="121" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">and a verification harness for safer iterative development.</text>
+
+  <g font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" fill="#c0caf5">
+    <rect x="24" y="143" width="66" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="36" y="159">Next.js</text>
+    <rect x="98" y="143" width="86" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="110" y="159">TypeScript</text>
+    <rect x="192" y="143" width="86" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="204" y="159">PocketBase</text>
+    <rect x="286" y="143" width="78" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="298" y="159">Playwright</text>
+    <rect x="372" y="143" width="63" height="24" rx="12" fill="#161b22" stroke="#30363d"/><text x="384" y="159">Docker</text>
+  </g>
+
+  <circle cx="29" cy="193" r="4" fill="#9ece6a"/>
+  <text x="41" y="198" fill="#787c99" font-family="Segoe UI, Ubuntu, sans-serif" font-size="12">Private source · learning platform</text>
+</svg>
