@@ -15,6 +15,21 @@ API_ROOT = "https://api.github.com"
 STATS_OUTPUT = Path("profile/github-stats.svg")
 LANGS_OUTPUT = Path("profile/top-langs.svg")
 
+# These repositories are intentionally omitted from the language card because
+# their raw byte counts do not represent the technologies I primarily author:
+# legacy platform/vendor dumps, upstream framework/tool mirrors, and asset-only
+# repositories. They still remain included in the overall repository stats.
+LANGUAGE_EXCLUDED_REPOS = {
+    "fiscertificaciones",   # legacy WordPress/plugin/theme codebase
+    "solidus",             # upstream framework source mirror
+    "grommet",             # upstream UI library source mirror
+    "free-for-dev",        # upstream resource-list mirror
+    "readme-typing-svg",   # upstream README widget mirror
+    "NoiseTorch",          # upstream utility source mirror
+    "streetmerchant",      # upstream utility source mirror
+    "umbala-assets",       # asset-only repository
+}
+
 LANGUAGE_COLORS = {
     "JavaScript": "#f1e05a",
     "TypeScript": "#3178c6",
@@ -136,10 +151,20 @@ def generate_stats(user, repositories):
     print(f"Wrote {STATS_OUTPUT}")
 
 
+def include_in_language_profile(repo):
+    if repo.get("fork") or repo.get("archived"):
+        return False
+    return repo.get("name", "") not in LANGUAGE_EXCLUDED_REPOS
+
+
 def generate_languages(repositories):
     totals = defaultdict(int)
+    source_repositories = [repo for repo in repositories if include_in_language_profile(repo)]
 
-    source_repositories = [repo for repo in repositories if not repo.get("fork")]
+    print(
+        f"Language profile: {len(source_repositories)} repositories included; "
+        f"{len(repositories) - len(source_repositories)} excluded."
+    )
 
     for repo in source_repositories:
         languages_url = repo.get("languages_url")
@@ -155,7 +180,7 @@ def generate_languages(repositories):
 
     ranked = sorted(totals.items(), key=lambda item: item[1], reverse=True)[:8]
     total_bytes = sum(value for _, value in ranked) or 1
-    coverage = "private + public repos" if PROFILE_TOKEN else "public repos only"
+    coverage = "private + public project repos" if PROFILE_TOKEN else "public project repos"
 
     segments = []
     cursor = 24.0
@@ -195,11 +220,11 @@ def generate_languages(repositories):
   </style>
   <rect x="0.5" y="0.5" width="519" height="219" rx="6" fill="#1a1b27" stroke="#30363d"/>
   <text class="title" x="24" y="34">Most Used Languages</text>
-  <text class="subtitle" x="24" y="54">Non-fork owned repositories · {html.escape(coverage)}</text>
+  <text class="subtitle" x="24" y="54">Authored/project repositories · {html.escape(coverage)}</text>
   <clipPath id="bar"><rect x="24" y="70" width="472" height="9" rx="4.5"/></clipPath>
   <g clip-path="url(#bar)">{''.join(segments)}</g>
   {''.join(labels)}
-  <text class="note" x="24" y="204">Calculated from GitHub language bytes; private repository names are not exposed.</text>
+  <text class="note" x="24" y="204">Excludes forks, mirrors, legacy/vendor-heavy code and asset-only repositories.</text>
 </svg>
 """
 
