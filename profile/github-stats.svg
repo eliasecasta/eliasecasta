@@ -14,12 +14,12 @@
   
     <g transform="translate(24, 92)">
       <text class="label" x="0" y="0">Repositories</text>
-      <text class="value" x="0" y="28">85</text>
+      <text class="value" x="0" y="28">86</text>
     </g>
   
     <g transform="translate(154, 92)">
       <text class="label" x="0" y="0">Private repos</text>
-      <text class="value" x="0" y="28">36</text>
+      <text class="value" x="0" y="28">37</text>
     </g>
   
     <g transform="translate(284, 92)">
