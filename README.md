@@ -1,88 +1,57 @@
-<p align="center">
-  <img src="./profile/header.svg" alt="Elias — Full-Stack, Backend, DevOps and AI Systems" />
-</p>
+# Elías Castañeda
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=eliasecasta&base=3781&abbreviated=true&style=flat-square" alt="Profile views" />
-  <a href="https://www.linkedin.com/in/eliasecasta/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+**Full-Stack Product Engineer · AI-Native Software Delivery**
 
-## About me
+I turn real business requirements into web applications that reach production — and I stay accountable for what happens after launch.
 
-I'm an **IT Engineer and Full-Stack Developer from Mexico** 🇲🇽. I build production web applications, APIs, internal tools, and the infrastructure around them — from application architecture and databases to CI/CD, observability, deployments, backups, and recovery workflows.
+**[Portfolio](https://eliasecasta.github.io/Portfolio/)** · **[LinkedIn](https://www.linkedin.com/in/eliasecasta/)** · **[Email](mailto:e71az@icloud.com)**
 
-I also work with **AI systems as an engineering discipline**: agent harnesses, workflow orchestration, context and memory systems, repository-level agent instructions, reusable skills, and automated verification loops that make software agents more reliable and token-efficient.
+## Selected client work
 
-### 🧑‍💻 Engineering focus
+### [Umbala](https://umbala.com.mx/) · Production wellness platform
+End-to-end client application with member accounts, class scheduling, credit-based bookings, payment integrations, administrative workflows and transactional notifications.
 
-- 💎 **Backend & APIs:** Ruby on Rails, Node.js, Express, REST APIs, background jobs
-- ⚛️ **Frontend:** React, Next.js, TypeScript, JavaScript, Tailwind CSS, Framer Motion
-- 🗄️ **Data:** PostgreSQL, MySQL, PocketBase, Redis, SQLite
-- 🧪 **Quality:** RSpec, Jest/Vitest, Playwright/E2E, linting, typechecking, build gates
-- ♾️ **DevOps & infrastructure:** Docker, Docker Compose, GitHub Actions, DigitalOcean, Nginx, Caddy, Linux, WSL, Vercel
-- 🔐 **Secrets & operations:** Doppler, Bitwarden, environment isolation, backups, restore drills, rollback-oriented deployments
-- 📡 **Observability:** Sentry, health checks, structured logging, deployment verification
-- 🧠 **AI systems & developer tooling:** agent harnesses, orchestration, context/memory, `AGENTS.md` / `SKILL.md` workflows, automated verification loops, Codex, DeepSeek, GitHub Copilot
+**Stack:** React, Vite, Node.js, Express, PocketBase, Docker, Nginx, DigitalOcean, GitHub Actions.
 
-## 🚀 Featured work
+**Ownership:** Application architecture, UI/API integration, release verification, isolated preview/production environments, observability and production support.
 
-<p align="center">
-  <img width="48%" src="./profile/projects/umbala.svg" alt="Umbala production wellness platform" />
-  <img width="48%" src="./profile/projects/fis-lms.svg" alt="FIS Certificaciones learning platform" />
-</p>
+### [FIS Certificaciones](https://fiscertificaciones.com.mx/) · Custom learning platform
+Modernization from WordPress/Masteriyo to a code-owned LMS for course management, role-based administration, learning flows, quizzes, certificates, enrollment and commerce workflows.
 
-<p align="center">
-  <img width="48%" src="./profile/projects/project-operations.svg" alt="Project Operations Dashboard" />
-</p>
+**Stack:** Next.js, TypeScript, React, PocketBase, Playwright, Docker, provider integrations.
 
-<p align="center"><sub>Most of my current production work lives in private repositories. The cards above describe the architecture at a high level without exposing private source code.</sub></p>
+**Ownership:** Full-stack implementation, migration/reconciliation tooling, automated quality gates, deployment documentation and release support.
 
-## 🛠️ Core stack
+> These are private client codebases. Public descriptions cover high-level architecture and my contribution, not private source, credentials, operational details or client data. Provider-specific acceptance is not implied merely by a public production release.
 
-![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)
-![Rails](https://img.shields.io/badge/Rails-D30001?style=flat-square&logo=rubyonrails&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PocketBase](https://img.shields.io/badge/PocketBase-B8DBE4?style=flat-square&logoColor=111827)
+## How I build with AI
 
-### ⚙️ DevOps & platform
+I use **coding agents as implementation tools, not as substitutes for engineering judgment**.
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=flat-square&logo=caddy&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
-![Doppler](https://img.shields.io/badge/Doppler-5628EE?style=flat-square&logo=doppler&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+1. **Clarify** product requirements, constraints and acceptance criteria.
+2. **Design** architecture, integration boundaries and repository-level context (`AGENTS.md`, specifications).
+3. **Delegate** scoped implementation and codebase exploration to AI coding agents.
+4. **Verify** through human review, linting, type checks, automated tests, CI and browser E2E flows.
+5. **Ship & operate** with environment isolation, deployment checks, monitoring and documented follow-up.
 
-## 📊 GitHub activity
+The goal is not to maximize generated code. **The goal is reliable, maintainable software that solves the user's problem.**
 
-<p align="center">
-  <img width="48%" src="./profile/github-stats.svg" alt="Elias's GitHub stats" />
-  <img width="48%" src="./profile/top-langs.svg" alt="Elias's most used languages" />
-</p>
+## Technical focus
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="./profile/contribution-snake.svg" />
-</picture>
+| Area | Technologies & practices |
+| --- | --- |
+| Full stack | React, Next.js, TypeScript, JavaScript, Node.js, Express, Ruby on Rails, REST APIs |
+| Data & product systems | PocketBase, PostgreSQL, MySQL, SQLite, Redis, authentication, roles, payments, bookings |
+| Quality | Playwright, Vitest, Jest, RSpec, integration tests, risk-based acceptance gates |
+| Delivery & operations | Docker, GitHub Actions, Linux, DigitalOcean, Nginx, Sentry, Doppler, deployment and recovery |
+| AI-assisted SDLC | Agent instructions, context engineering, structured specifications, code review, verification loops |
 
-## 🎮 Outside of code
+## Experience
 
-When I'm not building something, there's a good chance I'm playing videogames, experimenting with new tools, or finding another project to over-engineer.
+Previously worked on React/Rails engineering, code review, technical mentoring and remote support operations at **Microverse**, and developed C#/SQL Server reporting tools during a software development internship at **Safran Electrical & Power** in Toulouse.
 
-## 📫 Get in touch
-
-The best way to reach me is through [LinkedIn](https://www.linkedin.com/in/eliasecasta/).
+**Open to remote full-stack / product engineering roles with US, European and globally distributed teams.** English: advanced (C1) · Spanish: native.
 
 ---
 
-<p align="center"><i>Always building. Always learning.</i></p>
+**What I value:** clean engineering decisions, ownership, clear communication, pragmatism and evidence before declaring a change complete.
