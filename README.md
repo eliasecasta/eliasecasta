@@ -8,7 +8,7 @@ I'm a **full-stack software engineer** who builds and ships web applications for
 
 My current focus is **AI-assisted product engineering**. I use coding agents to move faster through implementation and iteration, while staying responsible for architecture, code quality, security, and whether the finished product actually works.
 
-**[Portfolio](https://eliasecasta.github.io/Portfolio/)** · **[LinkedIn](https://www.linkedin.com/in/eliasecasta/)** · **[Email](mailto:e71az@icloud.com)**
+**[Portfolio](https://eliasecasta.github.io/Portfolio/)** · **[LinkedIn](https://www.linkedin.com/in/eliasecasta/)**
 
 ## Real client work
 
@@ -62,4 +62,4 @@ I'm a native Spanish speaker, professionally proficient in English, and **open t
 
 ---
 
-**Interested in working together?** Connect on [LinkedIn](https://www.linkedin.com/in/eliasecasta/) or reach me at [e71az@icloud.com](mailto:e71az@icloud.com).
+**Interested in working together?** Send me a message on [LinkedIn](https://www.linkedin.com/in/eliasecasta/).
