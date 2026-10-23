@@ -1,57 +1,65 @@
-# Elías Castañeda
+<p align="center">
+  <img src="./profile/header.svg" alt="Elías Castañeda — Full-Stack Product Engineer" />
+</p>
 
-**Full-Stack Product Engineer · AI-Native Software Delivery**
+# Hi, I'm Elías.
 
-I turn real business requirements into web applications that reach production — and I stay accountable for what happens after launch.
+I'm a **full-stack software engineer** who builds and ships web applications for real businesses. I work across the product lifecycle: figuring out requirements, designing the system, implementing features, testing, deploying, and supporting software after release.
+
+My current focus is **AI-assisted product engineering**. I use coding agents to move faster through implementation and iteration, while staying responsible for architecture, code quality, security, and whether the finished product actually works.
 
 **[Portfolio](https://eliasecasta.github.io/Portfolio/)** · **[LinkedIn](https://www.linkedin.com/in/eliasecasta/)** · **[Email](mailto:e71az@icloud.com)**
 
-## Selected client work
+## Real client work
 
-### [Umbala](https://umbala.com.mx/) · Production wellness platform
-End-to-end client application with member accounts, class scheduling, credit-based bookings, payment integrations, administrative workflows and transactional notifications.
+<p align="center">
+  <a href="https://umbala.com.mx/"><img width="48%" src="./profile/projects/umbala.svg" alt="Umbala — wellness studio and booking platform" /></a>
+  <a href="https://fiscertificaciones.com.mx/"><img width="48%" src="./profile/projects/fis-lms.svg" alt="FIS Certificaciones — custom learning management platform" /></a>
+</p>
 
-**Stack:** React, Vite, Node.js, Express, PocketBase, Docker, Nginx, DigitalOcean, GitHub Actions.
+### [Umbala](https://umbala.com.mx/) — Wellness & booking platform
 
-**Ownership:** Application architecture, UI/API integration, release verification, isolated preview/production environments, observability and production support.
+Built and supported a client-facing wellness platform with **class reservations, credit-based access, member accounts, payment integrations, and administrative workflows**.
 
-### [FIS Certificaciones](https://fiscertificaciones.com.mx/) · Custom learning platform
-Modernization from WordPress/Masteriyo to a code-owned LMS for course management, role-based administration, learning flows, quizzes, certificates, enrollment and commerce workflows.
+I worked across frontend, API, data, deployment, and day-to-day operational concerns — including isolated environments, automated checks, and production troubleshooting.
 
-**Stack:** Next.js, TypeScript, React, PocketBase, Playwright, Docker, provider integrations.
+**React · Vite · Node.js/Express · PocketBase · Docker · DigitalOcean**
 
-**Ownership:** Full-stack implementation, migration/reconciliation tooling, automated quality gates, deployment documentation and release support.
+### [FIS Certificaciones](https://fiscertificaciones.com.mx/) — Custom learning management system
 
-> These are private client codebases. Public descriptions cover high-level architecture and my contribution, not private source, credentials, operational details or client data. Provider-specific acceptance is not implied merely by a public production release.
+Helped move a real education business away from its WordPress/Masteriyo dependency toward a **code-owned LMS**, covering course authoring, student learning, quizzes, certificates, role-based administration, and commerce/enrollment workflows.
 
-## How I build with AI
+The work also includes migration tooling, release processes, and automated verification. I treat live-provider acceptance and recovery checks as separate from merely having a deployment running.
 
-I use **coding agents as implementation tools, not as substitutes for engineering judgment**.
+**Next.js · TypeScript · React · PocketBase · Playwright · Docker**
 
-1. **Clarify** product requirements, constraints and acceptance criteria.
-2. **Design** architecture, integration boundaries and repository-level context (`AGENTS.md`, specifications).
-3. **Delegate** scoped implementation and codebase exploration to AI coding agents.
-4. **Verify** through human review, linting, type checks, automated tests, CI and browser E2E flows.
-5. **Ship & operate** with environment isolation, deployment checks, monitoring and documented follow-up.
+> Both are client projects with private source repositories. The descriptions here cover my engineering work without sharing private code, customer data, or credentials.
 
-The goal is not to maximize generated code. **The goal is reliable, maintainable software that solves the user's problem.**
+## How I work with AI
 
-## Technical focus
+I use AI coding agents as part of my normal development workflow — **not as a replacement for understanding the software**.
 
-| Area | Technologies & practices |
+I start with the business requirement and expected behavior, then establish architecture and implementation boundaries. Repository instructions, specifications, and documented decisions give agents the context they need for focused changes. I review the resulting code and use automated tests, type checks, CI, and browser-based flows to validate the work before releasing it.
+
+The outcome I care about is straightforward: **working software that people can depend on**, not how much code an agent generated.
+
+## What I work with
+
+| Engineering area | Technologies & practices |
 | --- | --- |
-| Full stack | React, Next.js, TypeScript, JavaScript, Node.js, Express, Ruby on Rails, REST APIs |
-| Data & product systems | PocketBase, PostgreSQL, MySQL, SQLite, Redis, authentication, roles, payments, bookings |
-| Quality | Playwright, Vitest, Jest, RSpec, integration tests, risk-based acceptance gates |
-| Delivery & operations | Docker, GitHub Actions, Linux, DigitalOcean, Nginx, Sentry, Doppler, deployment and recovery |
-| AI-assisted SDLC | Agent instructions, context engineering, structured specifications, code review, verification loops |
+| **Frontend & product UI** | React, Next.js, TypeScript, JavaScript, Tailwind CSS |
+| **Backend & APIs** | Ruby on Rails, Node.js, Express, REST APIs, authentication & authorization |
+| **Data & integrations** | PocketBase, PostgreSQL, MySQL, SQLite, Redis, payment/webhook integrations |
+| **Quality & delivery** | Playwright, Vitest/Jest, RSpec, GitHub Actions, code review, CI/CD |
+| **Infrastructure & operations** | Docker, Linux, DigitalOcean, Nginx, Sentry, Doppler, staging/production environments |
+| **AI-assisted engineering** | Coding agents, context engineering, scoped task specifications, review & verification loops |
 
-## Experience
+## Background
 
-Previously worked on React/Rails engineering, code review, technical mentoring and remote support operations at **Microverse**, and developed C#/SQL Server reporting tools during a software development internship at **Safran Electrical & Power** in Toulouse.
+Before my current client work, I spent several years at **Microverse** working with React/Rails codebases, reviewing code, mentoring developers, and supporting distributed technical teams. I previously developed C# and SQL Server tools during a software development internship at **Safran Electrical & Power** in Toulouse, France.
 
-**Open to remote full-stack / product engineering roles with US, European and globally distributed teams.** English: advanced (C1) · Spanish: native.
+I'm a native Spanish speaker, professionally proficient in English, and **open to remote Full-Stack Software Engineer and Product Engineer roles** with US, European, and globally distributed teams.
 
 ---
 
-**What I value:** clean engineering decisions, ownership, clear communication, pragmatism and evidence before declaring a change complete.
+**Interested in working together?** Connect on [LinkedIn](https://www.linkedin.com/in/eliasecasta/) or reach me at [e71az@icloud.com](mailto:e71az@icloud.com).
