@@ -2,6 +2,10 @@
   <img src="./profile/header.svg" alt="Elías Castañeda — Full-Stack Product Engineer" />
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=eliasecasta&base=3781&abbreviated=true&style=flat-square" alt="GitHub profile views" />
+</p>
+
 ## Hey, I'm Elías 👋
 
 I'm a **full-stack software engineer** who enjoys turning ideas and messy requirements into software that people actually use. I work across the whole process — from figuring out how a product should work to building, testing, deploying, and keeping it running.
