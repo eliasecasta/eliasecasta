@@ -2,64 +2,39 @@
   <img src="./profile/header.svg" alt="Elías Castañeda — Full-Stack Product Engineer" />
 </p>
 
-# Hi, I'm Elías.
+## Hey, I'm Elías 👋
 
-I'm a **full-stack software engineer** who builds and ships web applications for real businesses. I work across the product lifecycle: figuring out requirements, designing the system, implementing features, testing, deploying, and supporting software after release.
+I'm a **full-stack software engineer** who enjoys turning ideas and messy requirements into software that people actually use. I work across the whole process — from figuring out how a product should work to building, testing, deploying, and keeping it running.
 
-My current focus is **AI-assisted product engineering**. I use coding agents to move faster through implementation and iteration, while staying responsible for architecture, code quality, security, and whether the finished product actually works.
+These days, **AI coding agents are part of my workflow**. I give them context and direction, then review and validate the results. For me, the goal isn't generating more code — it's shipping better software.
 
-**[Portfolio](https://eliasecasta.github.io/Portfolio/)** · **[LinkedIn](https://www.linkedin.com/in/eliasecasta/)**
+**[🌐 Portfolio](https://eliasecasta.github.io/Portfolio/)** · **[💼 LinkedIn](https://www.linkedin.com/in/eliasecasta/)**
 
-## Real client work
+### Things I've built for real clients
 
 <p align="center">
-  <a href="https://umbala.com.mx/"><img width="48%" src="./profile/projects/umbala.svg" alt="Umbala — wellness studio and booking platform" /></a>
-  <a href="https://fiscertificaciones.com.mx/"><img width="48%" src="./profile/projects/fis-lms.svg" alt="FIS Certificaciones — custom learning management platform" /></a>
+  <a href="https://umbala.com.mx/"><img width="48%" src="./profile/projects/umbala.svg" alt="Umbala wellness and booking platform" /></a>
+  <a href="https://fiscertificaciones.com.mx/"><img width="48%" src="./profile/projects/fis-lms.svg" alt="FIS Certificaciones learning platform" /></a>
 </p>
 
-### [Umbala](https://umbala.com.mx/) — Wellness & booking platform
+**[Umbala](https://umbala.com.mx/)** — A wellness platform with class bookings, credits, payments, and admin tools. Built with **React, Express, and PocketBase**, and deployed on DigitalOcean.
 
-Built and supported a client-facing wellness platform with **class reservations, credit-based access, member accounts, payment integrations, and administrative workflows**.
+**[FIS Certificaciones](https://fiscertificaciones.com.mx/)** — A custom learning platform replacing a WordPress-based LMS, with courses, quizzes, certificates, and student/admin workflows. Built with **Next.js, TypeScript, and PocketBase**.
 
-I worked across frontend, API, data, deployment, and day-to-day operational concerns — including isolated environments, automated checks, and production troubleshooting.
+*The client codebases are private, but the live websites are linked above.*
 
-**React · Vite · Node.js/Express · PocketBase · Docker · DigitalOcean**
+### What I work with
 
-### [FIS Certificaciones](https://fiscertificaciones.com.mx/) — Custom learning management system
+**React · Next.js · TypeScript · Node.js · Ruby on Rails · APIs · PocketBase · SQL · Docker · Playwright · GitHub Actions**
 
-Helped move a real education business away from its WordPress/Masteriyo dependency toward a **code-owned LMS**, covering course authoring, student learning, quizzes, certificates, role-based administration, and commerce/enrollment workflows.
+I previously worked in code review, mentoring, and remote technical support at **Microverse**, and developed software during an internship at **Safran** in France.
 
-The work also includes migration tooling, release processes, and automated verification. I treat live-provider acceptance and recovery checks as separate from merely having a deployment running.
+I'm open to **remote software engineering and product engineering roles** with US, European, and globally distributed teams. If you'd like to chat, find me on **[LinkedIn](https://www.linkedin.com/in/eliasecasta/)**.
 
-**Next.js · TypeScript · React · PocketBase · Playwright · Docker**
+### A little activity from my corner of GitHub 🐍
 
-> Both are client projects with private source repositories. The descriptions here cover my engineering work without sharing private code, customer data, or credentials.
-
-## How I work with AI
-
-I use AI coding agents as part of my normal development workflow — **not as a replacement for understanding the software**.
-
-I start with the business requirement and expected behavior, then establish architecture and implementation boundaries. Repository instructions, specifications, and documented decisions give agents the context they need for focused changes. I review the resulting code and use automated tests, type checks, CI, and browser-based flows to validate the work before releasing it.
-
-The outcome I care about is straightforward: **working software that people can depend on**, not how much code an agent generated.
-
-## What I work with
-
-| Engineering area | Technologies & practices |
-| --- | --- |
-| **Frontend & product UI** | React, Next.js, TypeScript, JavaScript, Tailwind CSS |
-| **Backend & APIs** | Ruby on Rails, Node.js, Express, REST APIs, authentication & authorization |
-| **Data & integrations** | PocketBase, PostgreSQL, MySQL, SQLite, Redis, payment/webhook integrations |
-| **Quality & delivery** | Playwright, Vitest/Jest, RSpec, GitHub Actions, code review, CI/CD |
-| **Infrastructure & operations** | Docker, Linux, DigitalOcean, Nginx, Sentry, Doppler, staging/production environments |
-| **AI-assisted engineering** | Coding agents, context engineering, scoped task specifications, review & verification loops |
-
-## Background
-
-Before my current client work, I spent several years at **Microverse** working with React/Rails codebases, reviewing code, mentoring developers, and supporting distributed technical teams. I previously developed C# and SQL Server tools during a software development internship at **Safran Electrical & Power** in Toulouse, France.
-
-I'm a native Spanish speaker, professionally proficient in English, and **open to remote Full-Stack Software Engineer and Product Engineer roles** with US, European, and globally distributed teams.
-
----
-
-**Interested in working together?** Send me a message on [LinkedIn](https://www.linkedin.com/in/eliasecasta/).
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/contribution-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile/contribution-snake.svg" />
+  <img alt="Animated snake moving across my GitHub contributions" src="./profile/contribution-snake.svg" />
+</picture>
