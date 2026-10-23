@@ -1,5 +1,5 @@
 <svg width="1000" height="260" viewBox="0 0 1000 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Elias — Full-Stack, Backend, DevOps and AI Systems</title>
+  <title id="title">Elias — Full-Stack Product Engineer</title>
   <desc id="desc">Custom profile banner for Elias</desc>
   <defs>
     <linearGradient id="bg" x1="40" y1="20" x2="960" y2="240" gradientUnits="userSpaceOnUse">
@@ -38,8 +38,8 @@
     <text x="30" y="65" fill="#38bdae" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">$ whoami</text>
     <text x="30" y="111" fill="#f8fafc" font-family="Segoe UI, Ubuntu, sans-serif" font-weight="700" font-size="38" letter-spacing="0.5">ELIAS</text>
     <rect x="30" y="124" width="610" height="3" rx="1.5" fill="url(#accent)"/>
-    <text x="30" y="151" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18">Full-Stack · Backend · DevOps · AI Systems</text>
-    <text x="30" y="178" fill="#787c99" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">Building production software, reliable infrastructure, and agent-driven engineering workflows.</text>
+    <text x="30" y="151" fill="#a9b1d6" font-family="Segoe UI, Ubuntu, sans-serif" font-size="18">Full-Stack Product Engineer · AI-Assisted Delivery</text>
+    <text x="30" y="178" fill="#787c99" font-family="Segoe UI, Ubuntu, sans-serif" font-size="13">Building real client software, from architecture to deployment.</text>
 
     <g transform="translate(662 59)">
       <rect width="220" height="30" rx="15" fill="#161b22" stroke="#30363d"/>
